@@ -12,6 +12,4 @@ harfbuzz
 fribidi
 curl
 sqlitebrowser
-yakuake
-okular
 libreoffice-fresh
