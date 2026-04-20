@@ -1,0 +1,17 @@
+ffmpeg
+keepassxc
+git
+hunspell-pt-br
+htop
+qpdf
+cmake
+make
+calibre
+zstd
+harfbuzz
+fribidi
+curl
+sqlitebrowser
+yakuake
+okular
+libreoffice-fresh
