@@ -13,3 +13,4 @@ fribidi
 curl
 sqlitebrowser
 libreoffice-fresh
+gcc-fortran
