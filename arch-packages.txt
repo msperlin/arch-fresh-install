@@ -14,3 +14,4 @@ curl
 sqlitebrowser
 libreoffice-fresh
 gcc-fortran
+wget
