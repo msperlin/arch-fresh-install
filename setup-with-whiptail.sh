@@ -49,7 +49,7 @@ install_yay
 echo "=== ARCH Setup Script ==="
 
 CHOICES=$(whiptail --title "Arch Setup" --checklist \
-"Select components to install (Space to select, Enter to confirm):" 22 78 14 \
+"Select components to install (Space to select, Enter to confirm):" 22 78 15 \
 "UPDATE" "Update and Upgrade System" ON \
 "PAC" "Install packages in $arch_file" OFF \
 "UTILS" "Install utils (gh,topgrade, ..)" OFF \
@@ -62,6 +62,7 @@ CHOICES=$(whiptail --title "Arch Setup" --checklist \
 "GIT" "Configure git username and email" OFF \
 "DOCKER" "Install Docker" OFF \
 "INSYNC" "Install Insync (Google Drive client)" OFF \
+"ANTIGRAVITY" "Install Antigravity CLI (agy)" OFF \
 "CLEANUP" "Run System Cleanup" OFF \
 3>&1 1>&2 2>&3)
 
@@ -80,6 +81,7 @@ if [ $? -eq 0 ]; then
             '"GIT"') ./scripts/configure-git.sh ;;
             '"DOCKER"') ./scripts/install-config-docker.sh ;;
             '"INSYNC"') ./scripts/install-insync.sh ;;
+            '"ANTIGRAVITY"') ./scripts/install-antigravity.sh ;;
             '"CLEANUP"') cleanup ;;
         esac
     done

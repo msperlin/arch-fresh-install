@@ -41,6 +41,7 @@ The interactive menu allows you to selectively execute the following tasks:
 - **Visual Studio Code:** The industry-standard code editor (`visual-studio-code-bin`).
 - **Docker:** Automated installation and configuration of the Docker engine and Docker Compose.
 - **Git Configuration:** Quick setup for your global Git identity (username and email).
+- **Antigravity CLI:** Install the Antigravity CLI coding assistant (`agy`).
 
 ### 🌐 Productivity & Apps
 - **Google Chrome:** The most popular web browser.
