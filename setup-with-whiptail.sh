@@ -46,6 +46,9 @@ fi
 # Ensure yay is installed
 install_yay
 
+# Configure yay globally to run in non-interactive mode (skips diff, cleanbuild, edit prompts)
+yay --save --answerdiff=None --answerclean=None --answeredit=None
+
 echo "=== ARCH Setup Script ==="
 
 CHOICES=$(whiptail --title "Arch Setup" --checklist \
