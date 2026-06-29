@@ -7,4 +7,5 @@ sudo pacman -S --needed --noconfirm \
     texlive-mathscience texlive-pictures \
     texlive-bibtexextra texlive-xetex \
     texlive-luatex texlive-langportuguese \
-    textlive-fontsextra
+    texlive-fontsextra \
+    texlive-plaingeneric
